@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 20px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Sample Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+		<th>gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>himanshu kumar</td>
+        <td>himanshu@kiet.com</td>
+        <td>25</td>
+        <td>male</td>
+      </tr>
+      <tr>
+        <td>himanshu raghav</td>
+        <td>hiihh@example.com</td>
+        <td>24</td>
+        <td>male</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+  <!-- Login Page -->
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
